@@ -11,7 +11,7 @@ else
 
 function confirmDela(url){
 //var agree = confirm("¿Realmente desea eliminarlo?");
-if (confirm("¿Realmente desea Aprovar esta Venta?"))
+if (confirm("De Verdad deseas Aprovar esta Venta?"))
     window.location.href = url;
 else
     return false ;
@@ -258,8 +258,8 @@ $hora = date("H:i:s",time()-3600);
                                   <tr>
                                   <div id="register_form">
                                     <form  role="form" action="?admin=salida&crear=crear" method="post" enctype="multipart/form-data">
-                                                        <th>Producto o Servicio </th>
-                                                        <th>Cantidad o Monto</th>
+                                                        <th>Producto </th>
+                                                        <th>Cantidad</th>
                                 </thead>
                                 <tbody>
                                   <tr>
